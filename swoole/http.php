@@ -14,7 +14,7 @@ $http = new swoole_http_server('0.0.0.0', 8811);
 // 设置静态资源目录
 $http->set([
     'enable_static_handler' => true,
-    'document_root' => './public',
+    'document_root' => '../public/static',
     'worker_num' => 5,
 ]);
 // 在服务开启的时候，加载内容
