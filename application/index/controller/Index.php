@@ -5,8 +5,7 @@ class Index
 {
     public function index()
     {
-        var_dump($_GET);
-        echo 'index function';
+        echo 'index';
     }
 
     public function show()
